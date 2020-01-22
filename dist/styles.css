@@ -1,0 +1,56 @@
+:root {
+  --main-background-colour: #F5D9DF;
+  --rosy-red: #EA1C2C; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: var(--main-background-colour);
+  font-family: "Nunito", sans-serif; }
+
+.main section:not(:first-child) {
+  margin-top: 7rem; }
+
+.bigBoi h2 {
+  color: var(--rosy-red);
+  font-weight: 100;
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+.bigBoi p {
+  font-size: 2rem;
+  line-height: 2; }
+
+#mainNavbar {
+  font-size: 2rem;
+  font-weight: 100; }
+  #mainNavbar .nav-link {
+    color: #FFF; }
+    #mainNavbar .nav-link:hover {
+      color: var(--rosy-red); }
+  #mainNavbar .navbar-brand {
+    color: var(--rosy-red);
+    font-size: 3rem; }
+
+#headingGroup span {
+  color: var(--rosy-red); }
+
+#headingGroup h1 {
+  font-size: 5rem;
+  font-weight: 100; }
+
+.navbar.scrolled {
+  background-color: #dec0de;
+  -webkit-transition: background 1.5s ease;
+  transition: background 1.5s ease; }
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 3rem; } }
